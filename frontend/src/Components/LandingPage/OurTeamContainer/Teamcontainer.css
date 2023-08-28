@@ -1,0 +1,8 @@
+.TeamContainer {
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 93%;
+  justify-content: space-around;
+}

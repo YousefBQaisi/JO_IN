@@ -1,0 +1,84 @@
+.bankimg{
+    width: 60px;
+    height: 30px;
+    padding-right: 10px;
+}
+.checkoutSec{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkout-container{
+    padding: 1em;
+}
+
+/* .btn-group-vertical>.btn:not(:first-child),
+.btn-group-vertical>.btn-group:not(:first-child) {
+    margin-top: 0;
+} */
+
+/* Check.css */
+/* .background-section {
+    background-color: #eee;
+}
+
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.col-md-7 {
+    margin-bottom: 1rem;
+}
+
+.py-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-success {
+    color: green;
+}
+
+.text-primary {
+    color: blue;
+}
+
+.text-dark {
+    color: #343a40;
+}
+
+.rounded {
+    border-radius: 0.5rem;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+} */
+
+/* Add other necessary styles here */

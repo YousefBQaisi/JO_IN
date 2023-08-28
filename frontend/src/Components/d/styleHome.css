@@ -1,0 +1,12 @@
+.dash-add-product {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--light-green);
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}

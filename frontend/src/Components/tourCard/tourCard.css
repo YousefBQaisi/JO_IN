@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+
+
+/*discover section*/
+.discover-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 5rem 0rem;
+}
+
+.discover-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.discover-text-wrapper .section-title {
+    color: var(--dark-green);
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.discover-text-wrapper .section-sub-title {
+    color: var(--dark-gray);
+    font-family: var(--font);
+    font-size: 1.728rem;
+    font-weight: bold;
+
+}
+
+.discover-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 3rem;
+    gap: 2rem;
+
+}
+
+.discover-card {
+    height: 363px;
+    width: 380px;
+
+    box-shadow: 1px 1px 10px rgb(190, 186, 186);
+    border-radius: 10px;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.discover-card:hover {
+    animation: pulse;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
+.discover-card img {
+    width: 360px;
+    height: 227px;
+    padding-top: 0.5rem;
+    object-fit: cover;
+}
+
+.dicover-title-card {
+    font-size: 1.2rem;
+    color: var(--dark-gray);
+    text-align: left;
+    padding: 0.5rem;
+    font-family: var(--font);
+    margin-bottom: 2rem;
+}
+
+.discover-card-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.icon-days {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.icon-days p {
+    font-size: 0.8rem;
+    font-family: var(--font);
+    color: var(--dark-gray);
+}
+
+.icon-days svg {
+    color: var(--dark-gray);
+}
+
+.price {
+    font-size: 1rem;
+    color: var(--dark-green);
+    font-family: var(--font);
+}
+
+
+.page-tour {
+    display: grid;
+    justify-content: center
+}
+
+
+.page-link {
+    color: #295943 !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .discover-text-wrapper .section-sub-title {
+        font-size: 0.8rem;
+    }
+
+    .discover-cards-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .discover-card {
+        height: 60vh;
+        width: 80vw;
+    }
+
+    .discover-card img {
+        width: 75vw;
+        height: 40vh;
+    }
+
+    .dicover-title-card {
+        font-size: 0.9rem;
+    }
+
+    .icon-days p {
+        font-size: 0.7rem;
+    }
+
+    .price {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .discover-cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .discover-card {
+        height: 363px;
+        width: 320px;
+    }
+
+    .discover-card img {
+        width: 300px;
+        height: 227px;
+    }
+}
+
+.description {
+    width: 380px;
+    overflow: hidden;
+
+}
+
+.btn--details {
+    background-color: var(--light-green);
+}
+
+.btn--details:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* .tour-pagination {
+
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+
+} */
+
+
+
+/* end of discover section*/
+
+
+/* PageInation Style  */
+
+.navPagination {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pagination {
+    width: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 1.1em;
+    border-radius: 6px;
+    border: 1px solid rgb(191, 184, 184);
+    cursor: pointer;
+}
+
+.Pagination>.Page-item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    padding: 0.7em;
+    font-size: 1.1em;
+    font-weight: 500;
+    height: 100%;
+}
+
+.Pagination>.Page-item1:hover {
+    text-decoration: underline;
+}
+
+.Pagination>.Page-item1>a {
+    color: var(--dark-green);
+}
+
+.active1 {
+
+    text-decoration: underline;
+}
